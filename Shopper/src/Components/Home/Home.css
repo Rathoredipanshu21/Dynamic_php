@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Agbalumo&family=Anton&family=Courgette&family=Croissant+One&family=Dancing+Script&family=Fascinate&family=Lugrasimo&family=Pacifico&family=Pangolin&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Bubbles&family=Young+Serif&display=swap');
+
+
+.hero {
+    position: relative;
+  } 
+  .hero video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  .hero-section {
+    position: relative;
+    z-index: 1; 
+    text-align: center;
+    padding: 60px; 
+    padding-top: 20px;
+  }
+
+  .hero-section h1{
+    font-size: 2.5rem;
+    font-family: 'popins';
+    /* padding-bottom: 30px; */
+    padding-top: 160px;
+    color: green;
+  }
+.hero-section h4{
+font-size: 1rem;
+color: #fff;
+}
+.at-item2 h3{
+    color: #b36aa1;
+}
+.at-item h1:hover{
+    font-size: 20px;
+    animation: focus-in-contract 1s linear 0.2s 1 normal none;
+
+}
+
+
+.hero-hand-icon{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+    flex-direction: unset;
+}
+
+.hero-left h2{
+    color: #090909;
+    font-size: 26px;
+    font-weight: 1.1rem;
+    padding: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.hero-left p {
+    color: #171717;
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.hero-hand-icon{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.hero-hand-icon img{
+    width: 105px;
+}
+
+
+
+ .hero-latest-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    margin-top: auto;
+    background: #ff4141;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
+.hero-right img{
+width: 430px;
+}
+
+
+
+div.at-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.at-item {
+    color: #3079ed; font-weight:bold; font-size:3em;
+    
+    animation-name: focus-in-contract;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: none;
+        
+    /* shorthand
+    animation: focus-in-contract 1s linear 0.2s 1 normal none;*/
+}
+@keyframes focus-in-contract {
+        
+    0% {
+        letter-spacing:1em;
+        filter:blur(12px);
+        opacity:0;
+    }
+    100% {
+        filter:blur(0);
+        opacity:1;
+    }
+}
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 958px) {
+    #bgVideo {
+      width: 80%; 
+    }
+  }
+
+  @media only screen and (max-width: 1200px) {
+    #bgVideo {
+      width: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 992px) {
+    #bgVideo {
+      width: 60%; 
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    #bgVideo {
+      width: 50%; 
+    }
+  }
+
+  @media only screen and (max-width: 576px) {
+    #bgVideo {
+      width: 40%; 
+    }
+  }
+

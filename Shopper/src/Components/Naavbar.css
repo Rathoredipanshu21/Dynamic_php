@@ -1,0 +1,58 @@
+
+.nav-bar {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #365962;
+  color: #fff;
+  padding: 1px 114px;
+  font-family: popins;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.logo p {
+  font-size: 1.8rem;
+}
+
+.list ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.list ul li {
+  margin-right: 40px;
+  font-size: 1.8rem;
+  font-family: popins;
+}
+
+.list ul li:last-child {
+  margin-right: 0;
+}
+
+.list ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.list ul li a:hover {
+  color: #b218ea;
+  font-size: 18px;
+}
+
+

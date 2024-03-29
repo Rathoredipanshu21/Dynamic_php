@@ -1,0 +1,28 @@
+.popular {
+    text-align: center;
+   }
+   
+   .Popular_item {
+     display: flex;
+     margin-inline: 60px;
+    
+   }
+   
+   .product-item {
+     margin-right: 10px;
+   }
+ 
+   .product-item ,.Popular{
+     padding-top: 50px;
+   }
+   button{
+    width: 100px;
+    height: 35px;
+    background-color: blue;
+    color: #fff;
+    border-radius: 15px ;
+   }
+
+   
+   
+  
